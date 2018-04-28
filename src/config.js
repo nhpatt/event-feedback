@@ -1,14 +1,14 @@
 module.exports = {
     site: {
-        name: 'QuilloStack',
-        footer: 'QuilloStack 2048',
-        twitter: '@sirikon',
+        name: 'LechazoConf 2018',
+        footer: 'LechazoConf 2018',
+        twitter: '@lechazoconf',
         url: 'http://127.0.0.1:8080'
     },
     admin: {
-        user: 'admin',
-        password: 'admin',
-        realm: 'QuilloStack'
+        user: 'lechazoconf',
+        password: 'l3ch4z0c0nf!?',
+        realm: 'LechazoConf'
     },
     session: {
         secret: process.env.SESSION_SECRET || 'secret',

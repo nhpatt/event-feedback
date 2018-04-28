@@ -3,7 +3,7 @@
 
 html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    -webkit-tap-highlight-color: rgba(255, 115, 179, .3);
+    -webkit-tap-highlight-color: #A0D468;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 
 html, body {
     height: 100%;
-    background-color: #f8f8ff;
+    background-color: #FAF4E6;
 }
 
 hr {
@@ -35,7 +35,7 @@ hr {
 }
 
 .bsr-header {
-    background-color: #5154aa;
+    background-color: rgb(132, 58, 81);
     color: white;
     text-align: center;
     user-select: none;
@@ -61,20 +61,6 @@ hr {
     font-weight: 900;
 }
 
-.bsr-header-swirl {
-    height: 13px;
-}
-
-.bsr-header-swirl.is-flipped {
-    transform: scale(-1,1)
-}
-
-@media (max-width: 340px) {
-    .bsr-header-swirl {
-        height: 9px;
-    }
-}
-
 .bsr-talk-card-link {
     color: inherit;
     text-decoration: none;
@@ -93,13 +79,13 @@ hr {
     font-size: 1.3em;
     font-family: "Lato",sans-serif;
     font-weight: 700;
-    color: #5154aa;
+    color: rgb(132, 58, 81);
     display: block;
     margin: 0 0 .5em 0;
 }
 
 .bsr-talk-card.is-done .bsr-talk-card-name {
-    color: rgba(81, 84, 170, .5)
+    color: #5A6779;
 }
 
 .bsr-talk-card-info {
@@ -110,7 +96,7 @@ hr {
 .bsr-talk-card-info-speaker {
     font-size: 1em;
     flex-grow: 1;
-    color: #86c1ed;
+    color: #5A6779;
     font-style: italic;
     font-weight: 700;
 }
@@ -119,7 +105,7 @@ hr {
     font-size: 1em;
     font-weight: 700;
     float: right;
-    color: #ff73b3;
+    color: #A0D468;
     margin: 0 .6em;
     white-space: nowrap;
     font-family: "Inconsolata",monospace;
@@ -178,7 +164,7 @@ hr {
     bottom: 0;
     left: 0;
     width: 0;
-    background-color: #ff73b3;
+    background-color: #A0D468;
 }
 
 @media (max-width: 800px) {
@@ -200,7 +186,7 @@ hr {
 }
 
 .bsr-talk-card-arrow svg {
-    fill: #ff73b3;
+    fill: #A0D468;
 }
 
 .bsr-talk-card-check {
@@ -227,7 +213,7 @@ hr {
 }
 
 .bsr-footer-credit {
-    color: #5154aa;
+    color: rgb(132, 58, 81);
     font-family: "Lato", sans-serif;
 }
 
@@ -245,7 +231,7 @@ hr {
     font-size: 1.7em;
     font-family: "Lato",sans-serif;
     font-weight: 700;
-    color: #5154aa;
+    color: rgb(132, 58, 81);
 }
 
 .bsr-talk-info {
@@ -255,7 +241,7 @@ hr {
 .bsr-talk-track {
     font-size: 1em;
     font-weight: 700;
-    color: #ff73b3;
+    color: #A0D468;
     margin: 0 .6em 0 0;
     white-space: nowrap;
     font-family: "Inconsolata",monospace;
@@ -272,7 +258,7 @@ hr {
     line-height: 1.4em;
     margin: 10px 0 0 0;
     font-family: "Inconsolata",monospace;
-    color: #60779d;
+    color: #5A6779;
 }
 
 .bsr-talk-description i {
@@ -305,7 +291,6 @@ hr {
     background-position: center;
     margin-right: 20px;
     flex-shrink: 0;
-    border-radius: 50%;
 }
 
 .bsr-talk-speaker-info {
@@ -316,7 +301,7 @@ hr {
     font-size: 1.4em;
     display: block;
     font-family: "Lato",sans-serif;
-    color: #5154aa;
+    color: rgb(132, 58, 81);
     font-weight: 700;
 }
 
@@ -324,14 +309,14 @@ hr {
     margin: .5em 0 0 0;
     display: inline-block;
     font-family: "Inconsolata",monospace;
-    color: #60779d;
+    color: #5A6779;
     line-height: 1.42;
 }
 
 .bsr-talk-feedback-title {
     font-size: 1.3em;
     font-family: "Lato", sans-serif;
-    color: #5154aa;
+    color: rgb(132, 58, 81);
 }
 
 .bsr-talk-feedback-stars {
@@ -348,7 +333,7 @@ hr {
 .bsr-talk-feedback-stars label svg {
     width: 40px;
     height: 40px;
-    fill: #ff73b3;
+    fill: #A0D468;
     cursor: pointer;
 }
 
@@ -371,7 +356,7 @@ hr {
 }
 
 .bsr-talk-feedback-comment:focus {
-    border-color: #ff73b3;
+    border-color: #A0D468;
 }
 
 .bsr-talk-feedback-button {
@@ -382,7 +367,7 @@ hr {
     margin: 10px auto;
     display: block;
     font-size: 1.3em;
-    background-color: #ff73b3;
+    background-color: #A0D468;
     color: white;
     border: none;
     padding: .4em;
