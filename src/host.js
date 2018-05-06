@@ -49,10 +49,10 @@ module.exports = () => {
     routes(app);
 
     const options = {
-        cert: config.host.cert,
-        key: config.host.key
+        cert: fs.readFileSync(config.options.cert),
+        key: fs.readFileSync(config.options.key)
     };
 
     app.listen(config.host.port, config.host.address);
-    https.createServer(options, app).listen(8443);
+    https.createServer(options, app).listen(443);
 };
