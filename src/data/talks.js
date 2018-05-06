@@ -1,17 +1,33 @@
 const talks = {
-    'soygema': {
-        name: '',
-        description: '',
-        speaker: 'Gema Parreño',
-        speakerImage: 'gema_nueva.svg',
-        speakerTitle: '',
-        when: '11:30-12:30'
-    },
     'saleiva': {
         name: '',
         description: '',
         speaker: 'Sergio Álvarez',
         speakerImage: 'saleiva.svg',
+        speakerTitle: 'PRODUCT/TECH - ZARA.COM',
+        when: '09:35-10:20'
+    },
+    'k4rliky': {
+        name: 'Consejo: No hagas trampas en videojuegos',
+        description: 'Una charla sobre lo efímero y complicado del éxito hackeando videojuegos',
+        speaker: 'Carlos Hernández',
+        speakerImage: 'karliky.png',
+        speakerTitle: 'I\'M NOT A HACKER - AUDIENSE',
+        when: '11:30-12:30'
+    },
+    'ggarciapaola': {
+        name: 'Salir de la rueda de hamster una tarea complicada... Inception',
+        description: '',
+        speaker: 'Paola García',
+        speakerImage: 'paola.svg',
+        speakerTitle: 'CEO - CHEFLY',
+        when: '11:30-12:30'
+    },
+    'soygema': {
+        name: '',
+        description: '',
+        speaker: 'Gema Parreño',
+        speakerImage: 'gema_nueva.svg',
         speakerTitle: '',
         when: '11:30-12:30'
     },
@@ -28,14 +44,6 @@ const talks = {
         description: '',
         speaker: 'Javier Escribano',
         speakerImage: 'fesja.svg',
-        speakerTitle: '',
-        when: '11:30-12:30'
-    },
-    'ggarciapaola': {
-        name: '',
-        description: '',
-        speaker: 'Paola García',
-        speakerImage: 'paola.svg',
         speakerTitle: '',
         when: '11:30-12:30'
     },
@@ -60,14 +68,6 @@ const talks = {
         description: '',
         speaker: 'Jesús',
         speakerImage: 'jesus.png',
-        speakerTitle: '',
-        when: '11:30-12:30'
-    },
-    'k4rliky': {
-        name: '',
-        description: '',
-        speaker: 'Carlos',
-        speakerImage: 'karliky.png',
         speakerTitle: '',
         when: '11:30-12:30'
     },
