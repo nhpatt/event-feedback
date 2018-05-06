@@ -1,4 +1,6 @@
 const path = require('path');
+const https = require('https');
+const fs = require('fs');
 const express = require('express');
 const bodyParser = require('body-parser');
 const session = require('express-session');
@@ -26,12 +28,12 @@ module.exports = () => {
     app.set('layout', path.join(__dirname, '/views/layouts/layout'));
 
     if (!debug) {
-        app.use(enforce.HTTPS({ trustProtoHeader: true }));
+        app.use(enforce.HTTPS({trustProtoHeader: true}));
     }
 
     app.use(expressLayouts);
 
-    app.use(bodyParser.urlencoded({ extended: false }));
+    app.use(bodyParser.urlencoded({extended: false}));
     app.use(session({
         store: new RedisStore({
             url: config.infrastructure.redisURL
@@ -46,5 +48,11 @@ module.exports = () => {
 
     routes(app);
 
+    const options = {
+        cert: config.host.cert,
+        key: config.host.key
+    };
+
     app.listen(config.host.port, config.host.address);
+    https.createServer(options, app).listen(8443);
 };
