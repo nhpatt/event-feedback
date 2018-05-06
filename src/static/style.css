@@ -283,12 +283,7 @@ hr {
 }
 
 .bsr-talk-speaker-image {
-    height: 20vw;
-    width: 20vw;
     max-width: 140px;
-    max-height: 140px;
-    background-size: cover;
-    background-position: center;
     margin-right: 20px;
     flex-shrink: 0;
 }

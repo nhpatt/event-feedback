@@ -20,7 +20,7 @@
 
     <div class="bsr-talk-speaker">
         <% if (talk.speakerImage) { %>
-        <div class="bsr-talk-speaker-image" style="background-image: url(/static/speaker-images/<%= talk.speakerImage %>)"></div>
+        <img class="bsr-talk-speaker-image" src="/static/speaker-images/<%= talk.speakerImage %>">
         <% } %>
         <div class="bsr-talk-speaker-info">
             <span class="bsr-talk-speaker-name"><%= talk.speaker %></span>
