@@ -19,8 +19,8 @@ module.exports = {
         port: process.env.PORT || 8080
     },
     options: {
-        cert: process.env.CERT || './fullchain.pem',
-        key: process.env.KEY || './privkey.pem'
+        cert: process.env.CERT,
+        key: process.env.KEY
     },
     infrastructure: {
         redisURL: process.env.REDIS_URL || 'redis://127.0.0.1:6379/',
