@@ -95,6 +95,14 @@ const talks = {
         speakerTitle: '',
         when: '18:15-19:00'
     },
+    'lechazoconf': {
+        name: '',
+        description: '',
+        speaker: 'Feedback para la conferencia',
+        speakerImage: 'lechacito.png',
+        speakerTitle: '',
+        when: '09:00-19:00'
+    },
 };
 
 Object.keys(talks).forEach((k) => {
