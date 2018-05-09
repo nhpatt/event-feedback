@@ -96,9 +96,9 @@ const talks = {
         when: '18:15-19:00'
     },
     'lechazoconf': {
-        name: '',
-        description: '',
-        speaker: 'Feedback para la conferencia',
+        name: 'Feedback para la conferencia',
+        description: 'Danos feedback para mejorar!',
+        speaker: 'Organización de la lechazoconf',
         speakerImage: 'lechacito.png',
         speakerTitle: '',
         when: '09:00-19:00'
