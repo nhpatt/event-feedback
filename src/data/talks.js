@@ -88,7 +88,7 @@ const talks = {
         when: '17:45-18:15'
     },
     'lalalalia': {
-        name: 'La ecuación del reportaje: muchos pequeños fracasos y algún éxito.\n',
+        name: 'La crisis de los 28',
         description: '',
         speaker: 'Analía Plaza',
         speakerImage: 'lalalalia.svg',
