@@ -17,7 +17,7 @@ const talks = {
     },
     'ggarciapaola': {
         name: 'Salir de la rueda de hamster una tarea complicada... Inception',
-        description: '',
+        description: '¿Cuantas veces has sentido que hacemos las cosas por inercia aunque parezcan NO tener sentido al menos para ti? Yo he sentido esto varias veces a lo largo de mi carrera y he salido "fuera de la rueda de hamster de aquello que me atrapaba"... ¿o no? Salí del mundo de trabajador por cuenta ajena en corporate al mundo del emprendimiento y ¿sabes que? Aquí también he encontrado una rueda de hamster! Salir del sistema establecido no es tan facil como parece... pero sigo intuyendo que merece la pena :) Te cuento mi experiencia por el camino en este charla.',
         speaker: 'Paola García',
         speakerImage: 'paola.svg',
         speakerTitle: 'CEO - CHEFLY',
@@ -65,7 +65,7 @@ const talks = {
     },
     'fesja': {
         name: 'Aplicando en OnTruck los aprendizajes de una start-up vendida y otra cerrada',
-        description: '',
+        description: 'En solo dos años de vida, hemos fundado y crecido OnTruck de 3 a más de 100 empleados, levantado más de 12M€ y conseguido la confianza de las principales empresas manufactureras y logísticas de España. Esta ejecución, casi de libro, se debe a las experiencias pasadas de los fundadores y del equipo. En esta charla compartiré con historias reales mías los aprendizajes que nos han permitido crecer a este altísimo ritmo. ¿Qué hemos aprendido del equipo, de los procesos y de la ejecución?',
         speaker: 'Javier Escribano',
         speakerImage: 'fesja.svg',
         speakerTitle: 'CPO - ONTRUCK',
