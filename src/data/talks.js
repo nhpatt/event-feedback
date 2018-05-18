@@ -82,7 +82,7 @@ const talks = {
     'kikobeats': {
         name: 'Estrategias de Producto desde el Open Source',
         description: 'Desde hace un tiempo hasta ahora, quería cambiar el chip. Quería construir proyecto alrededor de la tecnología que hacía. Quería que esas piezas fueran la base para hacer algo mayor, y no quedarme sólo en la superficie. Y eso, implica un montón de cosas. Esto no va de startups! Va de estilo de vida. De poder hacer Open Source y poder vivir de ello. De dejar tu trabajo porque te puedes dedicar a tus proyectos, que además te dan de comer. Bueno, a ver, no nos flipemos que yo todavía no he llegado a eso. Pero work in progress 🙂',
-        speaker: 'Kiko',
+        speaker: 'Kikobeats',
         speakerImage: 'kikobeats.png',
         speakerTitle: 'PRODUCT ENGINEER - AUDIENSE',
         when: '17:45-18:15'

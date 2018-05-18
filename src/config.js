@@ -7,7 +7,7 @@ module.exports = {
     },
     admin: {
         user: 'lechazoconf',
-        password: 'l3ch4z0c0nf!?',
+        password: '********',
         realm: 'LechazoConf'
     },
     session: {
