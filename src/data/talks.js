@@ -1,6 +1,6 @@
 const talks = {
     'saleiva': {
-        name: '',
+        name: 'f(x)',
         description: '',
         speaker: 'Sergio Álvarez',
         speakerImage: 'saleiva.svg',
