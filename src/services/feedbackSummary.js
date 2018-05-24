@@ -28,7 +28,7 @@ function feedbackSummary(feedbacks, talkSlugs) {
     Object.keys(result)
         .map(k => new Object({ summary: result[k], key: k }))
         .forEach(({ summary, key }) => {
-            summary.average = summary.feedbackCount > 0 ? (accumulators[key].rating / summary.feedbackCount) : 0;
+            summary.average = Math.round((summary.feedbackCount > 0 ? (accumulators[key].rating / summary.feedbackCount) : 0)*100)/100;
         });
 
     return result;
